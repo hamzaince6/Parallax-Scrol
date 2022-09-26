@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">SCROL</a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contack</a></li>
+        </ul>
+    </header>
+    <section class="parallax">
+        <h2 id="text">Parallax Test</h2>
+        <img src="/img/monutain_01.png" id="m1">
+        <img src="/img/trees_02.png" id="t2">
+        <img src="/img/monutain_02.png" id="m2">
+        <img src="/img/trees_01.png" id="t1">
+        <img src="/img/man.png" id="man">
+        <img src="/img/plants.png" id="plants">
+    </section>
+    <section class="sec">
+        <h2>Parallax Scrol Text</h2>
+        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo quam vero dolores modi aliquid magnam excepturi dolorem. Quas commodi expedita aut nulla, temporibus cupiditate quaerat odit minima, necessitatibus quae aperiam magnam exercitationem maxime molestias ipsum corrupti eius error non recusandae! Perspiciatis officiis aperiam sequi unde minus quasi praesentium neque quisquam atque magni omnis assumenda aliquid facilis ipsa, sit vitae! Ratione, corrupti! Esse reprehenderit excepturi porro consequuntur exercitationem, quidem architecto adipisci, officiis quasi tenetur error harum dicta quis culpa nemo cumque est? Rerum facere saepe dolore quos, eos doloribus aut expedita iusto voluptate labore vel, ullam facilis voluptatum! Quisquam aliquam illo perferendis deserunt eligendi obcaecati unde, nemo natus! Voluptatem, accusamus. Soluta ab debitis commodi similique dolorum illo sed doloribus pariatur aliquid laboriosam, magnam, ipsam modi hic molestiae quibusdam explicabo fuga. Placeat deserunt neque, ut repudiandae eum minus excepturi hic eius non recusandae! Officiis, magni cum nihil a minus odit facere aspernatur qui adipisci ex sit molestiae est maxime hic fuga vel! Eos quis iusto itaque molestias minus nihil corporis, asperiores, ut voluptate accusamus odit quisquam placeat debitis assumenda tempora totam aut sit aliquid, aspernatur id eaque magni sint! Minima consequuntur eligendi nihil molestias accusamus fuga provident porro itaque optio ratione possimus odit ab, dolorum ad quos ipsa doloremque consectetur, corrupti eveniet incidunt explicabo est numquam. Nemo delectus harum odio non veniam necessitatibus quibusdam, animi, molestias explicabo itaque hic earum reprehenderit corporis. Quibusdam dolores reprehenderit fugiat esse possimus deleniti assumenda molestias? Voluptas labore ullam, quae nobis repellendus eum eaque asperiores quia obcaecati? Dolorum odit expedita amet rem labore facere accusantium itaque tempora alias modi ex possimus voluptas placeat, cupiditate, sed minus laborum quod voluptate cumque aut quo? Illo animi quo rem nostrum aspernatur quis reiciendis, temporibus repellendus! Totam, suscipit, id fugiat, eum consequatur assumenda sequi fugit maiores minima consectetur error placeat vitae officia accusantium. Architecto eius consequatur blanditiis placeat aliquid quae qui dolor accusamus voluptate dolorem. Amet, unde sequi nobis eos aliquid iusto enim illum molestias consectetur sint mollitia impedit nesciunt quae totam hic labore, reiciendis dolore cupiditate placeat quas nulla fuga perspiciatis accusantium? Doloremque quis minus incidunt fuga rem? Assumenda ullam consequuntur quod, eos fugit illo porro eius sint sed? Officia quisquam dolorem suscipit. Magnam, repellat. Necessitatibus itaque nemo sapiente quisquam! Doloremque rem ducimus et, qui quia modi cum dolorum ipsam quisquam doloribus repellat placeat assumenda eveniet harum quo tenetur aperiam ipsa aut voluptatem atque! Quibusdam natus autem molestias accusantium velit deleniti ipsum facere rem omnis delectus veniam, labore eum consequuntur. Magnam adipisci molestiae qui. Ipsum, quos nam minima ipsa ad excepturi sint quisquam nostrum ratione laudantium placeat. Ea similique minus adipisci a esse eveniet dolore ullam modi. Officia hic suscipit dolores, illum autem temporibus nesciunt et excepturi nemo numquam, rerum, quia voluptas tempore ex praesentium quasi eaque consectetur quae tenetur architecto ea nostrum. Et magnam porro repudiandae perferendis, autem libero facere? Ducimus praesentium repellendus porro magnam deserunt natus dolorum itaque a, deleniti recusandae, facere nemo similique! Consequuntur, dolorem, possimus nemo, qui repellat tenetur eos dolor rerum tempore perferendis odio?</h2>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from("#m1",{
+            scrollTrigger : {
+                scrup: true
+            },
+            y: 80,
+        })
+        gsap.from("#m2",{
+            scrollTrigger : {
+                scrup: true
+            },
+            y: 50,
+        })
+        gsap.from("#t2",{
+            scrollTrigger : {
+                scrup: true
+            },
+            x: -50,
+        })
+        gsap.from("#t1",{
+            scrollTrigger : {
+                scrup: true
+            },
+            x: 50,
+        })
+        gsap.from("#man",{
+            scrollTrigger : {
+                scrup: true
+            },
+            x: -150,
+        })
+        gsap.from("#plants",{
+            scrollTrigger : {
+                scrup: true
+            },
+            x: -50,
+        })
+        gsap.from("#text",{
+            scrollTrigger : {
+                scrup: true
+            },
+            x: 800,
+        })
+    </script>
+
+    
+</body>
+</html>
+
